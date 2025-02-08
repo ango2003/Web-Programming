@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right, coral, red);
+    font-family: Arial, Hevetica, San-serif;  
+    text-align: center;
+}
+
+.container1{
+    border: 5px outset grey;
+    background-color: lightgrey;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.container2{
+    border: 5px outset grey;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+input[type=text],[type=password],[type=number], [type=email]{
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number]{
+    width:85px;
+}
+
+input[type=text]:focus, [type=password]:focus,[type=number]:focus, [type=email]:focus{
+    border: 2px solid #000;
+}
+
