@@ -23,7 +23,9 @@ function ReverseString(original){
 ReverseString("Problem");
 
 // Background Color Change Code
-
+document.getElementById("button").addEventListener("click", (event) => {
+    document.body.style.backgroundColor = "red";
+});
 
 // Max Value Function
 function MaxValueArray(arr){
@@ -43,13 +45,7 @@ console.log(max);
 
 // Count Vowels in a String Function
 function VowelCount(statement){
-    let vowel1 = statement.match(/a/gi)
-    let vowel2 = statement.match(/e/gi)
-    let vowel3 = statement.match(/i/gi)
-    let vowel4 = statement.match(/o/gi)
-    let vowel5 = statement.match(/u/gi)
-    
-    let vowels = vowel1.concat(vowel2,vowel3,vowel4,vowel5);
+    let vowels = statement.match(/aeiou/gi)
     let count = vowels.length;
     console.log(count);
 }
