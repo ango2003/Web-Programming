@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(to right, rgb(65, 189, 247), blue);
+    font-family: Arial, Helvetica, Sans-serif;  
+    text-align: center;
+}
+
+.container1{
+    border: 5px outset grey;
+    background-color: lightgrey;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.container2{
+    border: 5px outset grey;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+input[type=text],[type=password],[type=number], [type=email]{
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number]{
+    width:85px;
+}
+
+input[type=text]:focus, [type=password]:focus,[type=number]:focus, [type=email]:focus{
+    border: 2px solid #000;
+}
+
+/* Highlight fields with errors in red */
+input.error {
+    border: 2px solid red;
+    background-color: #f13838;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: darkgrey;
+}
