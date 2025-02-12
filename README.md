@@ -8,3 +8,7 @@ Day 3: CSS!
 Day 4: Talked about the Box Model, Flexbox, and last about the Grid model.
 
 Day 5: Javascript!
+
+Day 6: JS DOM Object
+
+Day 7: 
