@@ -11,4 +11,12 @@ Day 5: Javascript!
 
 Day 6: JS DOM Object
 
-Day 7: 
+Day 7: ES6+ Features like Arrow Functions, promises, and async/wait
+
+Day 8: Javascript Forms
+
+Day 9: JSON
+
+Day 10: Fetch API Examples
+
+Day 11: Worked on React and worked on the three card problems
