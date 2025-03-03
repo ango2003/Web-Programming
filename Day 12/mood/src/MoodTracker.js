@@ -9,9 +9,9 @@ export default function MoodTracker(){
             <h1>Mood Tracker</h1>
             <p>Current Mood: {mood}</p>
             <button onClick={()=>setMood("😂")} style={{margin:"5px", padding:"10px", background: "lightgreen"}}> Very Happy </button>
-            <button onClick={()=>setMood("😒")} style={{margin:"5px", padding:"10px", background: "lightgreen"}}> Unamused </button>
-            <button onClick={()=>setMood("😭")} style={{margin:"5px", padding:"10px", background: "lightgreen"}}> Upset </button>
-            <button onClick={()=>setMood("😁")} style={{margin:"5px", padding:"10px", background: "lightgreen"}}> Beaming </button>
+            <button onClick={()=>setMood("😒")} style={{margin:"5px", padding:"10px", background: "orange"}}> Unamused </button>
+            <button onClick={()=>setMood("😭")} style={{margin:"5px", padding:"10px", background: "red"}}> Upset </button>
+            <button onClick={()=>setMood("😁")} style={{margin:"5px", padding:"10px", background: "pink"}}> Beaming </button>
         </div>
     )
 }
