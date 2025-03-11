@@ -54,7 +54,7 @@ export default function MoodTracker() {
             fontFamily: "'Verdana', sans-serif"
         },
         "😠": {
-            backgroundColor: "#FF0000", // Green for excitement
+            backgroundColor: "#FF0000", // Red for excitement
             color: "#000",
             fontFamily: "'Times New Roman', sans-serif"
         }
